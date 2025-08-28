@@ -36,9 +36,11 @@ All tasks are stored in a file (`tasks.txt`), so they remain saved even after cl
 
 ## 📂 File Structure
 
+```
 ToDoList/
 │── ToDoList.java     # Main application file
 │── README.md         # Documentation
+```
 
 ---
 
