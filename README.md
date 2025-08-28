@@ -12,7 +12,6 @@ You can **add, view, update, remove, mark as completed, and search tasks**.
 - ✔️ Update task details  
 - ✔️ Mark tasks as completed  
 - ✔️ Search tasks by keyword  
-- ✔️ Automatic saving & loading from `tasks.txt`  
 
 ---
 
