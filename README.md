@@ -1,8 +1,7 @@
 # 📝 To-Do List (Java Console Application)
 
 A simple **console-based To-Do List application in Java** that helps you manage your daily tasks.  
-You can **add, view, update, remove, mark as completed, and search tasks**.  
-All tasks are stored in a file (`tasks.txt`), so they remain saved even after closing the program.  
+You can **add, view, update, remove, mark as completed, and search tasks**.
 
 ---
 
