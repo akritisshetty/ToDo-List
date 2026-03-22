@@ -34,7 +34,7 @@ A simple **console-based To-Do List application in Java** that helps you manage 
 ```
 ToDoList/
 │── ToDoList.java     # Main application file
-│── README.md         # Documentation
+└── README.md         # Documentation
 ```
 
 ---
