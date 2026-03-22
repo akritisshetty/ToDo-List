@@ -47,4 +47,4 @@ ToDoList/
 - Tasks can be added, updated, removed, marked as completed, or searched by keyword.
 - All tasks are saved to a local file (tasks.txt) for persistence.
 - On startup, the application loads existing tasks from the file into memory.
-- Any changes made during execution are immediately written back to the file.---
+- Any changes made during execution are immediately written back to the file.
