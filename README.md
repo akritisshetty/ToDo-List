@@ -4,17 +4,27 @@ A simple **console-based To-Do List application in Java** that helps you manage 
 
 ---
 
-## Features
+## 1. Features
 - View all tasks with **status** (Pending/Completed) and **priority** (High/Medium/Low)  
 - Add new tasks with description and priority  
 - Remove tasks by task number  
 - Update task details  
 - Mark tasks as completed  
-- Search tasks by keyword  
+- Search tasks by keyword
 
 ---
 
-## Installation & Setup
+## 2. Project Structure
+
+```
+ToDoList/
+│── ToDoList.java     # Main application file
+└── README.md         # Documentation
+```
+
+---
+
+## 3. Installation & Setup
 
 1. **Clone the repository**
    ```bash
@@ -29,21 +39,12 @@ A simple **console-based To-Do List application in Java** that helps you manage 
 
 ---
 
-## File Structure
+## 4. How It Works
 
-```
-ToDoList/
-│── ToDoList.java     # Main application file
-└── README.md         # Documentation
-```
-
----
-
-## Future Improvements
-
-- Add due dates and reminders
-- Sort tasks by priority or completion status
-- GUI version using JavaFX or Swing
-- Cloud sync for tasks
-
----
+- Tasks are stored in an ArrayList, which acts as the main in-memory data structure.
+- Each task contains a description, priority level, and completion status.
+- User interacts with the application through a menu-driven command-line interface.
+- Tasks can be added, updated, removed, marked as completed, or searched by keyword.
+- All tasks are saved to a local file (tasks.txt) for persistence.
+- On startup, the application loads existing tasks from the file into memory.
+- Any changes made during execution are immediately written back to the file.---
